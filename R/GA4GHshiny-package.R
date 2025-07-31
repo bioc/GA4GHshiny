@@ -12,7 +12,8 @@
 #' Maintainer: Welliton Souza <well309@gmail.com>
 #' @keywords package
 #'
-#' @importMethodsFrom GenomeInfoDb seqlevelsStyle seqlevelsStyle<- seqnames
+#' @importMethodsFrom Seqinfo seqnames
+#' @importMethodsFrom GenomeInfoDb seqlevelsStyle seqlevelsStyle<-
 #' @importMethodsFrom GenomicFeatures genes transcripts exons cds promoters
 #' @importMethodsFrom BiocGenerics as.data.frame start end
 #' @importMethodsFrom S4Vectors mcols
